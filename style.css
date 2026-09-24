@@ -1,0 +1,26 @@
+body {
+  margin: 20px;
+  font-family: Arial, sans-serif;
+  text-align: center;
+}
+
+.bandeau {
+  background-color: #1a4b8c;
+  color: white;
+  padding: 15px;
+  font-weight: bold;
+}
+
+.colonne-gauche {
+  background-color: #fae206;
+  color: white;
+  padding: 250px;
+  font-weight: bold;
+}
+
+.menu-bas {
+  background-color: #061efa;
+  color: white;
+  padding: 20px;
+  font-weight: bold;
+}
