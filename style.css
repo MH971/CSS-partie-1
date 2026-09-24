@@ -5,22 +5,22 @@ body {
 }
 
 .bandeau {
-  background-color: #1a4b8c;
+  background-color: hsl(214, 69%, 33%);
   color: white;
   padding: 15px;
   font-weight: bold;
 }
 
 .colonne-gauche {
-  background-color: #fae206;
+  background-color: hsl(54, 96%, 50%);
   color: white;
   padding: 250px;
   font-weight: bold;
 }
 
-.menu-bas {
-  background-color: #061efa;
+.Bas-page {
+  background-color: hsl(123, 87%, 47%);
   color: white;
-  padding: 20px;
+  padding: 15px;
   font-weight: bold;
 }
