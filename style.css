@@ -2,25 +2,29 @@ body {
   margin: 20px;
   font-family: Arial, sans-serif;
   text-align: center;
+  font-weight: bold;
 }
 
+/* Bandeau  */
 .bandeau {
-  background-color: hsl(214, 69%, 33%);
+  background-color: #1e3a8a;
   color: white;
-  padding: 15px;
-  font-weight: bold;
+  padding: 20px;
 }
 
-.colonne-gauche {
-  background-color: hsl(54, 96%, 50%);
+/* Contenu  */
+.contenu {
+  background-color: #f97316;
   color: white;
-  padding: 250px;
-  font-weight: bold;
+  height: 250px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
-.Bas-page {
-  background-color: hsl(123, 87%, 47%);
+/* Pied de page */
+.pied-page {
+  background-color: #7c3aed;
   color: white;
-  padding: 15px;
-  font-weight: bold;
+  padding: 20px;
 }
