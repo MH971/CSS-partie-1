@@ -1,0 +1,191 @@
+!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <title>CSS tp</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  
+  <div class="Tableau">
+    <div class="bandeau">Bandeau</div>
+
+    <div class="milieu">
+      <!--Colonne gauche-->
+      <div class="colonne-gauche">
+        <div class="menu-haut">Menu<br>haut</div>
+        <div class="menu-bas">Menu<br>bas</div>
+      </div>
+
+      <!--Au milieu-->
+      <div class="contenu">
+        OUAIS OUAIS OUAIS
+        <br><br>
+        <strong>Contenu</strong>
+      </div>
+
+      <!--Colonne droite-->
+      <div class="bloc-news">Bloc<br>News</div>
+    </div>
+
+    <div class="pied-page">Pied de page</div>
+  </div>
+
+  <hr>
+
+  
+  <!--le texte en bleu de taille 20px-->
+  <p class="texte-bleu">Mbappe BO</p>
+
+  <hr>
+
+
+  <!--phrases rouge et bleu-->
+  <p class="texte-rouge-30">le Barca c'est booste cette année</p>
+  <p class="texte-bleu">Le PSG le 25 Nuno et le 25 la date</p>
+
+  <hr>
+
+  <!-- petit tableau -->
+  <table border="1">
+    <tr>
+      <td>Mbappe </td>
+      <td>Numéro 10 </td>
+    </tr>
+  </table>
+
+  <!--Phrase de séparation-->
+  <p class="phrase-separation">JSP quoi mettre.</p>
+
+  <!--petit Tableau-->
+  <table border="1" class="milieu-tab">
+    <tr>
+      <td>Jude Bellingham</td>
+      <td>Numéro 5</td>
+    </tr>
+  </table>
+
+  <!--Phrase de séparation-->
+  <p class="phrase-separation">La aussi.</p>
+
+  <!--petit Tableau-->
+  <table border="1">
+      <tr>
+       <td>Kylian Mbappé</td>
+       <td>Numéro 7 PSG</td>
+     </tr>
+  </table>
+
+</body>
+</html>
+
+-------CSS--------
+
+.Tableau {
+  width: 360px;
+  margin: 20px auto;
+  font-family: Arial, sans-serif;
+  text-align: center;
+  font-weight: bold;
+}
+
+/*Bandeau*/
+.bandeau {
+  background-color: #1d4ed8;
+  color: white;
+  padding: 10px;
+}
+
+.milieu {
+  display: flex;
+}
+
+.colonne-gauche {
+  width: 70px;
+}
+
+/*Menu haut*/
+.menu-haut {
+  background-color: #16a34a;
+  color: white;
+  padding: 18px 5px;
+  font-size: 13px;
+}
+
+/*Menu bas*/
+.menu-bas {
+  background-color: #7c3aed;
+  color: white;
+  padding: 45px 5px;
+  font-size: 13px;
+}
+
+/*Contenu*/
+.contenu {
+  background-color: #ec9a0a;
+  color: black;
+  flex: 1;
+  padding: 10px;
+  font-weight: normal;
+  font-size: 11px;
+}
+
+/* Bloc News */
+.bloc-news {
+  background-color: #c92121;
+  color: white;
+  width: 70px;
+  padding: 20px 5px;
+  font-size: 13px;
+}
+
+/* Pied de page */
+.pied-page {
+  background-color: #0d9488;
+  color: white;
+  padding: 10px;
+}
+
+/*Pour séparer */
+hr {
+  margin: 25px 0;
+  border: 0;
+  border-top: 1px dashed #ccc;
+}
+
+
+/*Texte bleu de 20px*/
+.texte-bleu {
+  color: rgb(0, 0, 255);
+  font-size: 20px;
+}
+
+/*Texte rouge de 30px*/
+.texte-rouge-30 {
+  color: rgb(255, 0, 0);
+  font-size: 30px;
+}
+
+table {
+  color: green;
+  font-size: 15px;
+  width: auto;
+  border-collapse: collapse;
+  margin: 18px 0;
+}
+
+td {
+  padding: 6px 12px;
+}
+
+/*le tableau du milieu avec le texte en bleu */
+table.milieu-tab {
+  color: blue;
+}
+
+/*Phrases en rouge entre les tableaux*/
+.phrase-separation {
+  color: red;
+  margin: 10px 0;
+}
