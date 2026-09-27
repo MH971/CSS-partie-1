@@ -1,1 +1,71 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <title>CSS TP</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
 
+  <div class="Tableau">
+    <div class="bandeau">Bandeau</div>
+
+    <div class="milieu">
+      <div class="menu">Menu</div>
+      <div class="contenu">Contenu</div>
+    </div>
+
+    <div class="pied-page">Pied de page</div>
+  </div>
+
+</body>
+</html>
+
+---CSS----
+.Tableau {
+  width: 320px;
+  margin: 20px auto;
+  font-family: Arial, sans-serif;
+  text-align: center;
+  font-weight: bold;
+}
+
+/*Bandeau */
+.bandeau {
+  background-color: #1e3a8a;
+  color: white;
+  padding: 12px;
+}
+
+
+.milieu {
+  display: flex;
+  height: 230px;
+}
+
+/*Menu à gauche*/
+.menu {
+  background-color: #ec4899;
+  color: white;
+  width: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/*Contenu*/
+.contenu {
+  background-color: #eab308;
+  color: black;
+  flex: 1; /* Pour remplit le reste de la largeur*/
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/*Pied de page*/
+.pied-page {
+  background-color: #8310b9;
+  color: white;
+  padding: 12px;
+}
